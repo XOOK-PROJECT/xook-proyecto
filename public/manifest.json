@@ -1,9 +1,51 @@
 {
-    "name": "XOOK",
+    "name": "Xook",
     "short_name": "Xook",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#FFE9D2",
-    "theme_color": "#FFE1C4",
-    "orientation": "portrait-primary"
+    "background_color": "#FFFFFF",
+    "theme_color": "#EF4B56",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/logo72x65.19.png",
+            "type": "image/png",
+            "sizes": "65.19x72"
+        },
+        {
+            "src": "/img/logo96x86.92.png",
+            "type": "image/png",
+            "sizes": "86.92x96"
+        },
+        {
+            "src": "/img/logo128x115.89.png",
+            "type": "image/png",
+            "sizes": "115.89x128"
+        },
+        {
+            "src": "/img/logo144x130.38.png",
+            "type": "image/png",
+            "sizes": "130.38x144"
+        },
+        {
+            "src": "/img/logo152x137.62.png",
+            "type": "image/png",
+            "sizes": "137.62x152"
+        },
+        {
+            "src": "/img/logo162x173.84.png",
+            "type": "image/png",
+            "sizes": "173.84x162"
+        },
+        {
+            "src": "/img/logo384x347.68.png",
+            "type": "image/png",
+            "sizes": "347.68x384"
+        },
+        {
+            "src": "/img/logo512x463.57.png",
+            "type": "image/png",
+            "sizes": "463.57x512"
+        }
+    ]
 }
