@@ -3,10 +3,20 @@
     "short_name": "Xook",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#FFFFFF",
+    "background_color": "#EF4B56",
     "theme_color": "#EF4B56",
     "orientation": "portrait-primary",
     "icons": [
+        {
+            "src": "/img/logo25x25.png",
+            "type": "image/png",
+            "sizes": "25x25"
+        },
+        {
+            "src": "/img/logo57x57.png",
+            "type": "image/png",
+            "sizes": "57x57"
+        },
         {
             "src": "/img/logo72x65.19.png",
             "type": "image/png",
