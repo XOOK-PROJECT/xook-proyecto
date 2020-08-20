@@ -8,13 +8,44 @@
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="manifest" href="/manifest.json">
     <!-- IOS support-->
-    <!-- poner en href un icono de 96x96 desde la carpeta /icons/NombreDelIcon-->
-    <link rel="apple-touch-icon" href="">
-    <meta name="apple-mobile-web-app-status-bar" content="#aa7700"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#EF4B56">
+    <meta name="apple-mobile-web-app-title" content="Xook">
+    <link rel="apple-touch-icon" sizes="57x57" href="../public/img/logo57x57.png">
+    
 </head>
-<body>
-    <p>hello world</p>
+<body background-color="#292929">
+    <div class="uk-height-large uk-flex-middle uk-background-cover uk-light" data-src="../img/home.png"  uk-img>
+        <nav id="nav" class="uk-navbar-container uk-margin" uk-navbar>
+            <div class="uk-navbar-left">    
+                <a class="uk-navbar-item uk-logo" href="#"><img src="../img/logo_nav.png" width="150px" alt=""></a>        
+            </div>
+            <div class="uk-navbar-right uk-visible@m" >
+                <form class= "uk-navbar-item" action="javascript:void(0)">
+                    <button class="uk-button uk-button-default ">Iniciar Sesión</button>
+                    <button id="primary" class="uk-button uk-button-primary ">Registrarse</button>
+                </form>
+            </div>  
+
+            <div class="uk-navbar-right uk-hidden@m" >
+                <form class= "uk-navbar-item" action="javascript:void(0)">
+                    <a href="" class="uk-icon-button" uk-icon="sign-in"></a> &nbsp;
+                    <a href="" id="primary" class="uk-icon-button" uk-icon="file-edit"></a>
+                </form>
+            </div> 
+        </nav>
+        <div class="uk-flex uk-flex-center uk-flex-top">
+            <img src="../img/logo162x173.84.png" alt="">           
+         
+        </div>
+        <h1 class="uk-heading-medium uk-flex uk-flex-center uk-flex-middle uk-visible@m">Bienvenido a Xook</h1>
+        <h1 class="uk-heading-small uk-flex uk-flex-center uk-flex-middle uk-hidden@m">Bienvenido a Xook</h1>
+
+      </div>
+    
+    
 </body>
 </html>
