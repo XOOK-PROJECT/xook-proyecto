@@ -1,7 +1,19 @@
-#nav{
-    background-color: #1D1F21;
-    opacity: 87%;
-}
+    input.uk-checkbox:checked {
+    background-color: #EF4B56;
+    }
+    
+    input.uk-checkbox:checked:focus {
+    background-color: #EF4B56;
+    }
+    a.uk-link-heading:link{
+        color: white;
+    }
+    #forgot{
+        color: white;
+    }
+    #forgot:hover{
+        color: #EF4B56;
+    }
 .primary{
     color: #FFFFFF;
     background-color: #EF4B56 !important;
@@ -17,6 +29,20 @@
 }
 body{
     background-color: #292929 !important;
+}
+#usrname{
+    color: white;
+    background: rgb(255, 255, 255, 0.2);
+}
+#usricon{
+    color: #ffffff;
+}
+#nav{
+    background-color: #1D1F21;
+    opacity: 87%;
+}
+#remember{
+    color: white;
 }
 
 .center {
