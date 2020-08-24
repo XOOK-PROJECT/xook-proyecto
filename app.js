@@ -16,6 +16,9 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
     res.render('index')
 })
+app.get('/login', (req, res) => {
+    res.render('login')
+})
 
 //listen on port
 app.listen(port, () => console.info(`Listening on port ${port}`));

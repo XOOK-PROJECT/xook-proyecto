@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <!-- IOS support-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#EF4B56">
+    <meta name="apple-mobile-web-app-title" content="Xook">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/logohome.png">   
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/jpg" />
+    <style type="text/css">
+        html{ 
+            background: url(img/bkgn-login.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="uk-position-large uk-position-top-center uk-overlay">
+        <img src="img/logo162x173.84.png">
+    </div>
+    <form class="uk-position-medium uk-position-center">
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span id="usricon" class="uk-form-icon" uk-icon="icon: user"></span>
+                <input id="usrname" class="uk-input uk-form-width-large" placeholder="Usuario o Email" type="text">
+            </div>
+        </div>
+        <div class="uk-margin">
+            <div class="uk-inline">
+                <span id="usricon" class="uk-form-icon" uk-icon="icon: lock"></span>
+                <input id="usrname" class="uk-input uk-form-width-large" placeholder="Contraseña" type="text">
+            </div>
+        </div>
+        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label id="remember"><input id="remember" class="uk-checkbox" type="checkbox"> Recordarme!</label>
+            <a class="uk-link-heading uk-align-right" id="forgot" href="#">Olvidé mi contraseña</a>
+        </div>
+    </form>
+</body>
+</html>
