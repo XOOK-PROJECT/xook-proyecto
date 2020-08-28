@@ -4,12 +4,12 @@ navbar.innerHTML = `<nav id="nav" class="uk-navbar-container uk-margin" uk-navba
 </div>
 <div class="uk-navbar-right uk-visible@m" >
     <form class= "uk-navbar-item" action="javascript:void(0)">
-        <button class="uk-button uk-button-default" type="submit" onclick="window.location.href='/login'" style="border-radius: 1em;">Iniciar Sesión</button> &nbsp;
-        <button class="uk-button uk-button-primary primary" style="border-radius: 1em;">Registrarse</button>
+        <button class="uk-button uk-button-default fNormal" type="submit" onclick="window.location.href='/login'" style="border-radius: 1em;">Iniciar Sesión</button> &nbsp;
+        <button class="uk-button uk-button-primary primary fNormal" style="border-radius: 1em;">Registrarse</button>
     </form>
 </div>  
 
-<div class="uk-navbar-right uk-hidden@m" >
+<div class="uk-navbar-right uk-hidden@m fNormal" >
     <div class="uk-inline">
         <button class="uk-button-small uk-button-primary primary" type="button" style="border-radius: 0.7em;"><span uk-icon="icon:chevron-down">Comenzar</span></button>
         <div uk-dropdown>

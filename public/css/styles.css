@@ -20,8 +20,8 @@
     color: white !important;
 }
 .secondary{
-    color: #FFFFFF;
-    background-color: #59BEA0;
+    color: #FFFFFF !important;
+    background-color: #59BEA0 !important;
 }
 .third{
     color: #FFFFFF;

@@ -22,6 +22,15 @@ app.get('/login', (req, res) => {
 app.get('/home', (req, res) => {
     res.render('home')
 });
+app.get('/chats', (req, res) => {
+    res.render('chats')
+});
+app.get('/classes', (req, res) => {
+    res.render('classes')
+});
+app.get('/payments', (req, res) => {
+    res.render('payments')
+});
 
 //listen on port
 app.listen(port, () => console.info(`Listening on port ${port}`));
