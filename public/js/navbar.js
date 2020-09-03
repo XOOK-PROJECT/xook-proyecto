@@ -12,11 +12,14 @@ navbar.innerHTML = `<nav id="nav" class="uk-navbar-container uk-margin" uk-navba
 <div class="uk-navbar-right uk-hidden@m fNormal" >
     <div class="uk-inline">
         <button class="uk-button-small uk-button-primary primary" type="button" style="border-radius: 0.7em;"><span uk-icon="icon:chevron-down">Comenzar</span></button>
-        <div uk-dropdown>
+        <div uk-dropdown="pos: bottom-right">
             <ul class="uk-nav uk-dropdown-nav">
+                
                 <li class="uk-active"><a href="login"><span uk-icon="icon:sign-in"></span>Iniciar sesión</a></li>
                 <li class="uk-active"><a href="#"><span uk-icon="icon:file-edit"></span>Registrarse</a></li>
-            </ul>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-active add-button"><a href="#"><span uk-icon="icon:download"></span>Agregar a la homescreen</a></li>
+            </ul> 
     </div>
 </div> 
 </nav>`;

@@ -3,7 +3,7 @@ footer.innerHTML = `<div class="uk-section primary uk-light">
 
     <h3 class="fLight">XOOK</h3>
 
-    <div class="uk-grid-match uk-child-width-1-4@m fNormal" uk-grid>
+    <div class="uk-grid-match uk-child-width-1-4@m fLight" uk-grid>
         <div>
             <p>© Copyright 2020</p>
         </div>
