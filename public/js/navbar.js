@@ -17,8 +17,6 @@ navbar.innerHTML = `<nav id="nav" class="uk-navbar-container uk-margin" uk-navba
                 
                 <li class="uk-active"><a href="login"><span uk-icon="icon:sign-in"></span>Iniciar sesión</a></li>
                 <li class="uk-active"><a href="#"><span uk-icon="icon:file-edit"></span>Registrarse</a></li>
-                <li class="uk-nav-divider"></li>
-                <li class="uk-active add-button"><a href="#"><span uk-icon="icon:download"></span>Agregar a la homescreen</a></li>
             </ul> 
     </div>
 </div> 
